@@ -27,11 +27,22 @@
         android:textAllCaps="false" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bAccelerator"
+        android:id="@+id/bAccelerometer"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/round_button_off"
         android:text="@string/accel_sensor_off"
+        android:autoSizeTextType="uniform"
+        android:padding="5dp"
+        android:layout_margin="25dp"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bStep"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button_off"
+        android:text="@string/step_sensor_off"
         android:autoSizeTextType="uniform"
         android:padding="5dp"
         android:layout_margin="25dp"
@@ -64,5 +75,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Accelerometer sensor is OFF" />
+    <TextView
+        android:id="@+id/static3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Step detector sensor measurements:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/xStepMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step detector sensor is OFF" />
 
 </LinearLayout>
