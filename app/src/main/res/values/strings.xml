@@ -7,4 +7,6 @@
     <string name="accel_sensor_on">Accel\nON</string>
     <string name="step_sensor_off">Step\nOFF</string>
     <string name="step_sensor_on">Step\nON</string>
+    <string name="prox_sensor_off">Prox OFF</string>
+    <string name="prox_sensor_on">Prox ON</string>
 </resources>
